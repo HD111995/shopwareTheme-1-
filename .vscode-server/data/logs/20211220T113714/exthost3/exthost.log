@@ -1,0 +1,14 @@
+[2021-12-20 13:27:31.069] [exthost] [info] Extension host with pid 4507 started
+[2021-12-20 13:27:31.118] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/b1de5a5e2b9552102fc4ababd2f154be/vscode.lock': Lock acquired.
+[2021-12-20 13:27:31.198] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-20 13:27:31.207] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-20 13:27:31.213] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+[2021-12-20 13:27:31.262] [exthost] [info] ExtensionService#_doActivateExtension mblode.twig-language, startup: true, activationEvent: '*'
+[2021-12-20 13:27:31.324] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-20 13:27:31.443] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-20 13:27:31.557] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-20 13:27:31.579] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-20 13:27:31.584] [exthost] [info] Eager extensions activated
+[2021-12-20 13:27:42.973] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-12-20 13:27:42.973] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/b1de5a5e2b9552102fc4ababd2f154be/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-12-20 13:27:42.989] [exthost] [info] Extension host with pid 4507 exiting with code 0

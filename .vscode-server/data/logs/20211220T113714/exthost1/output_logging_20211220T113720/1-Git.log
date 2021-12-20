@@ -1,0 +1,1875 @@
+Gefundenes Git wurde überprüft in: git
+Verwenden von Git 2.17.1 von git
+Opening repository for path='/var/www' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git rev-parse --git-dir
+Open repository: /var/www/html
+> git status -z -u
+Opening repository for path='/var/www/.bash_history' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/.composer' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/.gitconfig' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/.ssh' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/.sudo_as_admin_successful' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/.vscode-server' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/CHANGELOG.md' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/makefile' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/pimpmylog' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/scripts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/overrides.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/overrides.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headervar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headervar.scss
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/base.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/base.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/overrides.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/overrides.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/snippet/en_GB/storefront.en-GB.json
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/snippet/en_GB/storefront.en-GB.json
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/headerVar.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_custom.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_custom.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_custom.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_custom.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_custom.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_custom.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/app/storefront/src/scss/header/header.scss
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/views/storefront/layout/header/search.html.twig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git show --textconv :custom/plugins/HishamTest/src/Resources/theme.json
+> git ls-files --stage -- /var/www/html/custom/plugins/HishamTest/src/Resources/theme.json
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_bootstrap.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_bootstrap.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/base.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/base.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/variables.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/variables.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/mixins/truncate-multiline.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/mixins/truncate-multiline.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_custom.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/abstract/variables/_custom.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/theme.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/component/_address-editor.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/component/_address-editor.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/component/_modal.scss
+> git ls-files --stage -- /var/www/html/vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/component/_modal.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template

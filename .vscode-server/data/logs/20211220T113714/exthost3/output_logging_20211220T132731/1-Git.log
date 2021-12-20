@@ -1,0 +1,59 @@
+Gefundenes Git wurde überprüft in: git
+Verwenden von Git 2.17.1 von git
+Opening repository for path='/var/www' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/.bash_history' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/.composer' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/.gitconfig' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/.ssh' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/.sudo_as_admin_successful' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/.vscode-server' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/CHANGELOG.md' failed; ex=Error: spawn ENOTDIR
+> git rev-parse --git-dir
+Open repository: /var/www/html
+> git status -z -u
+Opening repository for path='/var/www/makefile' failed; ex=Error: spawn ENOTDIR
+> git symbolic-ref --short HEAD
+Opening repository for path='/var/www/pimpmylog' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/trunk refs/remotes/trunk
+Opening repository for path='/var/www/scripts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/var/www/html/.git/refs/remotes/origin/trunk', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin

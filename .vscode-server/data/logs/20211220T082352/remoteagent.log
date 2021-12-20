@@ -1,0 +1,59 @@
+[2021-12-20 08:23:53.053] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-12-20 08:23:53.054] [remoteagent] [info] Extension host agent started.
+[2021-12-20 08:23:53.765] [remoteagent] [info] [::ffff:127.0.0.1][ff978e15][ManagementConnection] New connection established.
+[2021-12-20 08:23:55.897] [remoteagent] [info] Installing extension: mblode.twig-language
+[2021-12-20 08:23:55.978] [remoteagent] [info] Installing extension: octref.vetur
+[2021-12-20 08:23:57.280] [remoteagent] [info] [::ffff:127.0.0.1][a4090aba][ExtensionHostConnection] New connection established.
+[2021-12-20 08:23:57.303] [remoteagent] [info] [::ffff:127.0.0.1][a4090aba][ExtensionHostConnection] <1262> Launched Extension Host Process.
+[2021-12-20 08:23:57.585] [remoteagent] [info] Installing extension: ms-ceintl.vscode-language-pack-de
+[2021-12-20 08:24:01.432] [remoteagent] [info] Downloaded extension: mblode.twig-language /var/www/.vscode-server/extensionsCache/mblode.twig-language-0.9.2
+[2021-12-20 08:24:01.768] [remoteagent] [info] Downloaded extension: ms-ceintl.vscode-language-pack-de /var/www/.vscode-server/extensionsCache/ms-ceintl.vscode-language-pack-de-1.62.4
+[2021-12-20 08:24:02.249] [remoteagent] [info] Downloaded extension: octref.vetur /var/www/.vscode-server/extensionsCache/octref.vetur-0.35.0
+[2021-12-20 08:24:05.399] [remoteagent] [info] Extracted extension to /var/www/.vscode-server/extensions/.6b9cdcc4-c3d6-4759-8f22-5644c45868f3: ms-ceintl.vscode-language-pack-de
+[2021-12-20 08:24:05.464] [remoteagent] [info] Renamed to /var/www/.vscode-server/extensions/ms-ceintl.vscode-language-pack-de-1.62.4
+[2021-12-20 08:24:05.487] [remoteagent] [info] Extracting completed. ms-ceintl.vscode-language-pack-de
+[2021-12-20 08:24:05.487] [remoteagent] [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-de
+[2021-12-20 08:24:05.617] [remoteagent] [info] Extension installed successfully: ms-ceintl.vscode-language-pack-de
+[2021-12-20 08:24:24.775] [remoteagent] [info] Extracted extension to /var/www/.vscode-server/extensions/.4b686b1d-b52c-4b03-81fe-b9c671e52b48: mblode.twig-language
+[2021-12-20 08:24:24.827] [remoteagent] [info] Renamed to /var/www/.vscode-server/extensions/mblode.twig-language-0.9.2
+[2021-12-20 08:24:24.830] [remoteagent] [info] Extracting completed. mblode.twig-language
+[2021-12-20 08:24:24.831] [remoteagent] [info] Extension installed successfully: mblode.twig-language
+[2021-12-20 08:24:32.614] [remoteagent] [info] Extracted extension to /var/www/.vscode-server/extensions/.64ab8904-efbd-4e87-9987-fa3b139a7187: octref.vetur
+[2021-12-20 08:24:32.678] [remoteagent] [info] Renamed to /var/www/.vscode-server/extensions/octref.vetur-0.35.0
+[2021-12-20 08:24:32.681] [remoteagent] [info] Extracting completed. octref.vetur
+[2021-12-20 08:24:32.681] [remoteagent] [info] Extension installed successfully: octref.vetur
+[2021-12-20 08:39:39.439] [remoteagent] [info] Installing extension: mohsen1.prettify-json
+[2021-12-20 08:39:40.378] [remoteagent] [info] Downloaded extension: mohsen1.prettify-json /var/www/.vscode-server/extensionsCache/mohsen1.prettify-json-0.0.3
+[2021-12-20 08:39:42.550] [remoteagent] [info] Extracted extension to /var/www/.vscode-server/extensions/.265a5c0e-27f1-4ff7-8037-c4d614396cbc: mohsen1.prettify-json
+[2021-12-20 08:39:42.577] [remoteagent] [info] Renamed to /var/www/.vscode-server/extensions/mohsen1.prettify-json-0.0.3
+[2021-12-20 08:39:42.584] [remoteagent] [info] Extracting completed. mohsen1.prettify-json
+[2021-12-20 08:39:42.585] [remoteagent] [info] Extension installed successfully: mohsen1.prettify-json
+[2021-12-20 08:40:39.360] [remoteagent] [info] Installing extension: zainchen.json
+[2021-12-20 08:40:39.994] [remoteagent] [info] Downloaded extension: zainchen.json /var/www/.vscode-server/extensionsCache/zainchen.json-2.0.2
+[2021-12-20 08:40:40.163] [remoteagent] [info] Extracted extension to /var/www/.vscode-server/extensions/.1b8dfd18-d59b-4c85-8d45-8fc32fded15d: zainchen.json
+[2021-12-20 08:40:40.178] [remoteagent] [info] Renamed to /var/www/.vscode-server/extensions/zainchen.json-2.0.2
+[2021-12-20 08:40:40.180] [remoteagent] [info] Extracting completed. zainchen.json
+[2021-12-20 08:40:40.180] [remoteagent] [info] Extension installed successfully: zainchen.json
+[2021-12-20 08:42:46.321] [remoteagent] [info] Installing extension: hookyqr.beautify
+[2021-12-20 08:42:47.324] [remoteagent] [info] Downloaded extension: hookyqr.beautify /var/www/.vscode-server/extensionsCache/hookyqr.beautify-1.5.0
+[2021-12-20 08:42:48.934] [remoteagent] [info] Extracted extension to /var/www/.vscode-server/extensions/.c6515d02-6faa-4d06-a863-11f086b70663: hookyqr.beautify
+[2021-12-20 08:42:48.997] [remoteagent] [info] Renamed to /var/www/.vscode-server/extensions/hookyqr.beautify-1.5.0
+[2021-12-20 08:42:48.998] [remoteagent] [info] Extracting completed. hookyqr.beautify
+[2021-12-20 08:42:48.999] [remoteagent] [info] Extension installed successfully: hookyqr.beautify
+[2021-12-20 08:44:27.543] [remoteagent] [info] Installing extension: mblode.twig-language-2
+[2021-12-20 08:44:29.884] [remoteagent] [info] Downloaded extension: mblode.twig-language-2 /var/www/.vscode-server/extensionsCache/mblode.twig-language-2-0.9.2
+[2021-12-20 08:44:39.689] [remoteagent] [info] Extracted extension to /var/www/.vscode-server/extensions/.d4a6d5c9-b5e8-4bab-8a52-06c32f998c9f: mblode.twig-language-2
+[2021-12-20 08:44:39.752] [remoteagent] [info] Renamed to /var/www/.vscode-server/extensions/mblode.twig-language-2-0.9.2
+[2021-12-20 08:44:39.754] [remoteagent] [info] Extracting completed. mblode.twig-language-2
+[2021-12-20 08:44:39.755] [remoteagent] [info] Extension installed successfully: mblode.twig-language-2
+[2021-12-20 11:21:08.018] [remoteagent] [info] [::ffff:127.0.0.1][ff978e15][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-20 11:21:09.447] [remoteagent] [info] [::ffff:127.0.0.1][a4090aba][ExtensionHostConnection] <1262> Extension Host Process exited with code: 0, signal: null.

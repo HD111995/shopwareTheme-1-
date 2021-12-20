@@ -1,0 +1,191 @@
+{
+	"name": "json",
+	"displayName": "json",
+	"description": "Json for Visual Studio Code",
+	"version": "2.0.2",
+	"publisher": "ZainChen",
+	"homepage": "https://github.com/ZainChen/vscode-json#readme",
+	"bugs": {
+		"url": "https://github.com/ZainChen/vscode-json/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ZainChen/vscode-json"
+	},
+	"license": "MIT",
+	"author": "ZainChen <2384439266@qq.com>",
+	"icon": "resources/json-128.png",
+	"categories": [
+		"Extension Packs",
+		"Other"
+	],
+	"keywords": [
+		"zain",
+		"ZainChen",
+		"银",
+		"志银",
+		"陈志银",
+		"陈志振",
+		"json",
+		"html",
+		"css",
+		"javascript",
+		"nodejs",
+		"github",
+		"gitlab",
+		"git",
+		"c",
+		"C++",
+		"web",
+		"js",
+		"npm",
+		"python",
+		"java",
+		"Ruby",
+		"webpack",
+		"php",
+		"mysql",
+		"sql",
+		"apache",
+		"nginx",
+		"iis",
+		"wordpress",
+		"hexo",
+		"tencent",
+		"linux",
+		"window",
+		"mac",
+		"vs",
+		"google",
+		"markdown",
+		"xml",
+		"run",
+		"commands",
+		"view",
+		"diff",
+		"tree",
+		"compare"
+	],
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"enableProposedApi": true,
+	"main": "./out/extension.js",
+	"activationEvents": [
+		"onView:jsonOutline",
+		"onLanguage:json"
+	],
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "json-views",
+					"title": "json",
+					"icon": "./resources/json-500.png"
+				}
+			]
+		},
+		"views": {
+			"json-views": [
+				{
+					"id": "jsonOutline",
+					"name": "Please open the json file.(ZainChen)"
+				}
+			]
+		},
+		"menus": {
+			"view/title": [
+				{
+					"command": "jsonOutline.refresh",
+					"when": "view == jsonOutline",
+					"group": "navigation"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "jsonOutline.renameNode",
+					"when": "view == jsonOutline"
+				},
+				{
+					"command": "jsonOutline.refreshNode",
+					"when": "view == jsonOutline",
+					"group": "inline"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "jsonOutline.refresh",
+				"title": "Refresh",
+				"icon": {
+					"light": "./resources/light/refresh.svg",
+					"dark": "./resources/dark/refresh.svg"
+				}
+			},
+			{
+				"command": "jsonOutline.refreshNode",
+				"title": "Refresh",
+				"icon": {
+					"light": "./resources/light/refresh.svg",
+					"dark": "./resources/dark/refresh.svg"
+				}
+			},
+			{
+				"command": "jsonOutline.renameNode",
+				"title": "Rename"
+			}
+		],
+		"languages": [
+			{
+				"id": "json",
+				"extensions": [
+					".json"
+				],
+				"aliases": [
+					"Json"
+				]
+			}
+		],
+		"configuration": [
+			{
+				"type": "object",
+				"title": "JSON-zain",
+				"properties": {
+					"JSON-zain.author.ZainChen": {
+						"type": "string",
+						"default": "Welcome to vscode-json.",
+						"description": "Json for Visual Studio Code"
+					},
+					"JSON-zain.json.autorefresh": {
+						"type": "boolean",
+						"default": false,
+						"description": "Whether to update the menu in real time based on the contents of the json file!"
+					}
+				}
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"lint": "eslint . --ext .ts,.tsx"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"@types/vscode": "^1.45.0",
+		"typescript": "^3.9.4",
+		"@typescript-eslint/eslint-plugin": "^3.0.2",
+		"@typescript-eslint/parser": "^3.0.2",
+		"eslint": "^7.1.0"
+	},
+	"dependencies": {
+		"jsonc-parser": "^0.4.2"
+	},
+	"__metadata": {
+		"id": "311c4d7f-e81f-47f8-9956-6a9919ddef43",
+		"publisherId": "ba123bd8-9849-4432-b0b9-5ef0775f063b",
+		"publisherDisplayName": "ZainChen",
+		"installedTimestamp": 1639986040165
+	}
+}
