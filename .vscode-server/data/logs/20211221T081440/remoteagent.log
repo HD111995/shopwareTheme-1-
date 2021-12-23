@@ -1,0 +1,16 @@
+[2021-12-21 08:14:40.514] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-12-21 08:14:40.514] [remoteagent] [info] Extension host agent started.
+[2021-12-21 08:14:41.019] [remoteagent] [info] Deleted from disk ms-ceintl.vscode-language-pack-de /var/www/.vscode-server/extensions/ms-ceintl.vscode-language-pack-de-1.62.4
+[2021-12-21 08:14:41.736] [remoteagent] [info] [::ffff:127.0.0.1][0209de08][ManagementConnection] New connection established.
+[2021-12-21 08:14:44.255] [remoteagent] [info] [::ffff:127.0.0.1][0d8b9182][ExtensionHostConnection] New connection established.
+[2021-12-21 08:14:44.260] [remoteagent] [info] [::ffff:127.0.0.1][0d8b9182][ExtensionHostConnection] <1094> Launched Extension Host Process.
+[2021-12-21 08:19:12.275] [remoteagent] [info] [::ffff:127.0.0.1][0209de08][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

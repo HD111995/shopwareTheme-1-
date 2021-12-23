@@ -35,3 +35,6 @@
 [2021-12-20 13:27:30.314] [remoteagent] [info] [::ffff:127.0.0.1][af4a89f3][ExtensionHostConnection] <4507> Launched Extension Host Process.
 [2021-12-20 13:27:42.914] [remoteagent] [info] [::ffff:127.0.0.1][433eaa93][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
 [2021-12-20 13:27:43.006] [remoteagent] [info] [::ffff:127.0.0.1][af4a89f3][ExtensionHostConnection] <4507> Extension Host Process exited with code: 0, signal: null.
+[2021-12-20 16:44:58.707] [remoteagent] [info] [::ffff:127.0.0.1][9d43c023][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-20 16:44:59.118] [remoteagent] [info] [::ffff:127.0.0.1][41705c09][ExtensionHostConnection] <1217> Extension Host Process exited with code: 0, signal: null.
+[2021-12-20 16:45:36.953] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds

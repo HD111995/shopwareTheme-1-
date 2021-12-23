@@ -1,0 +1,24 @@
+[2021-12-21 09:09:15.730] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-12-21 09:09:15.730] [remoteagent] [info] Extension host agent started.
+[2021-12-21 09:09:16.674] [remoteagent] [info] [::ffff:127.0.0.1][a645792d][ManagementConnection] New connection established.
+[2021-12-21 09:09:19.315] [remoteagent] [info] [::ffff:127.0.0.1][77d6015d][ExtensionHostConnection] New connection established.
+[2021-12-21 09:09:19.322] [remoteagent] [info] [::ffff:127.0.0.1][77d6015d][ExtensionHostConnection] <1235> Launched Extension Host Process.
+[2021-12-21 11:04:37.693] [remoteagent] [info] [::ffff:127.0.0.1][a645792d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-21 11:04:38.220] [remoteagent] [info] [::ffff:127.0.0.1][77d6015d][ExtensionHostConnection] <1235> Extension Host Process exited with code: 0, signal: null.
+[2021-12-21 11:11:20.033] [remoteagent] [info] [::ffff:127.0.0.1][eff7f509][ManagementConnection] New connection established.
+[2021-12-21 11:11:23.507] [remoteagent] [info] [::ffff:127.0.0.1][dc07396a][ExtensionHostConnection] New connection established.
+[2021-12-21 11:11:23.522] [remoteagent] [info] [::ffff:127.0.0.1][dc07396a][ExtensionHostConnection] <19697> Launched Extension Host Process.
+[2021-12-21 11:48:26.305] [remoteagent] [info] [::ffff:127.0.0.1][dc07396a][ExtensionHostConnection] The client has reconnected.
+[2021-12-21 11:48:27.711] [remoteagent] [info] [::ffff:127.0.0.1][eff7f509][ManagementConnection] The client has reconnected.
+[2021-12-21 16:48:31.092] [remoteagent] [info] [::ffff:127.0.0.1][eff7f509][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-21 16:48:31.595] [remoteagent] [info] [::ffff:127.0.0.1][dc07396a][ExtensionHostConnection] <19697> Extension Host Process exited with code: 0, signal: null.
+[2021-12-22 08:02:09.082] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds

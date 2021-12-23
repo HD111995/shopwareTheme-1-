@@ -2,4 +2,4 @@
 	email = shomawmisho1234@gmail.com
 	name = HD111995
 [credential]
-	helper = "!f() { /var/www/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node /tmp/vscode-remote-containers-e767b39961c2bbfd7c828a70994e98c99b689649.js $*; }; f"
+	helper = "!f() { /var/www/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node /tmp/vscode-remote-containers-d4a24d9fc36f1cd37f0466ca945bef8956c6fdeb.js $*; }; f"
